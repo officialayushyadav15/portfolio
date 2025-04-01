@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd2f58e011.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <p><img src="images/logo2.png" class="logo2"></p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#portfolio">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>Hello!</span></p>
+                <h1>I'm <span>Ayush Yadav</span>,<br> a software engineer based <br>in India.</h1>
+            </div>
+        </div>        
+    </div>
+<!----------------------------------about-------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A well-organized and creative graduate, I have formed, examined, and operated various projects by introducing innovative solutions. I've also modified and redesigned interfaces for efficiency and quality. Through effective coordination and mentorship, I've been trying to achieve remarkable results in the field of Computer Science Engineering, showcasing excellent communication and problem-solving skills.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('technical')">Technical Skills</p>
+                        <p class="tab-links" onclick="opentab('interpersonal')">Interpersonal skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="technical">
+                        <ul>
+                            <li><span>Microsoft Azure</span><br>Familiar with Microsoft Azure, adept at basic functionalities and services</li>
+                            <li><span>AWS</span><br>Basic grasp of AWS cloud platform's fundamental concepts and services.</li>
+                            <li><span>Programming</span><br>Skilled in C, C++, Python, Java for versatile project development.</li>
+                            <li><span>DSA</span><br>Proficient in DSA, strong in C++ for optimized software.</li>
+                            <li><span>Back-end Developer</span><br>Back-End Developer adept in SQL/NoSQL, optimizing data management for performance.</li>
+                            <li><span>Front-End Developer</span><br>Skilled in HTML, CSS, JavaScript, crafting dynamic, visually appealing websites.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interpersonal">
+                        <ul>
+                            <li><span>Leadership</span><br>Exemplary interpersonal skills: inspire, guide, collaborate; fostering effective team dynamics.</li>
+                            <li><span>Public Speaking</span><br>Proficient public speaker: articulate delivery, compelling engagement; effective interpersonal communication.</li>
+                            <li><span>Team Work</span><br>Leverage interpersonal skills for team success, foster collaboration, effective teamwork.</li>
+                            <li><span>Decision Making</span><br>Strong decision-making: adept in complex situations, facilitate effective interpersonal interactions.</li>
+                            <li><span>Design Thinking</span><br>Leverage Design Thinking for empathy, creativity, user-centric problem-solving.</li>
+                            <li><span>Listening Skills</span><br>Proficient listener: actively engage, empathetic, fostering effective communication and understanding.</li>
+                            <li><span>Positivity</span><br>Infuse positivity, uplifting energy into teams and projects, contagiously.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025 | 8.58cgpa </span><br>BE-CSE(H) Cloud Computing - Chandigarh University, Gharuan</li>
+                            <li><span>2020-2021 | 95.4% </span><br>Intermediate (CBSE) - Kendriya Vidyalaya No. 1, Pathankot</li>
+                            <li><span>2018-2019 | 91.6% </span><br>Matriculation (CBSE) -  St. Josephs Convent Sec. School, Pathankot</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------------------------services-------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services_list">
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h1>
+                        Cloud Platform
+                    </h1>
+                    <p>
+                        Experienced in major cloud platforms like AWS, Microsoft Azure, and Google Cloud Platform. Proficient in utilizing these platforms for diverse projects, ensuring scalable, secure, and efficient cloud solutions. Capable of managing deployments, performing data analytics, and leveraging cloud-based tools to enhance project performance and reliability.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>
+                        Data Structures and Algorithms (DSA): 
+                    </h1>
+                    <p>
+                        Expertise in DSA is essential for efficient problem-solving and optimizing performance. With proficiency in C++, Python, and Java, I can tackle complex problems and devise optimal solutions by applying a range of algorithms, ensuring robust and effective software development.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h1>
+                        Front-End Development
+                    </h1>
+                    <p>
+                        With extensive experience in frontend development, I specialize in creating user-friendly interfaces and enhancing user experiences for websites and applications. My focus is on designing and implementing visually appealing, responsive, and highly usable interfaces. Utilizing advanced technologies like HTML, CSS, and JavaScript, I deliver engaging, intuitive, and dynamic web solutions for optimal user interaction.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h1>
+                        Back-End Development
+                    </h1>
+                    <p>
+                        I am proficient in backend development, focusing on the server-side of applications. I manage databases, server logic, and integration with frontend interfaces. I work with technologies like Node.js, Python, and databases such as MongoDB and SQL. My backend services ensure seamless data exchange, security, and functionality, providing a robust foundation for user-facing applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="images/work3.png" >
+                    <div class="layer">
+                        <h1>Portfolio</h1>
+                        <p>Website showcasing my work, skills and contact information</p>
+                        <a href="https://github.com/officialayushyadav15/portfolio"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png" >
+                    <div class="layer">
+                        <h1>Early detection of cardiovascular disease</h1>
+                        <p> This aids in early detection and proactive healthcare management, providing reliable risk assessments and supporting healthcare providers in making informed decisions.</p>
+                        <a href="https://github.com/officialayushyadav15/early_cardio_vascular_disease_detection_system/tree/main"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work7.png" >
+                    <div class="layer">
+                        <h1>ParkSmart</h1>
+                        <p>An application depicting a simple way of booking a parking lot</p>
+                        <a href="https://github.com/officialayushyadav15/parking_management_system"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>               
+            </div>
+            <a href="projects.html" class="btn">See more</a>
+        </div>
+    </div>
+<!----------contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact_left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>officialayushyadav15@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91 9877581364</p>
+                <div class="social_icons">
+                    <a href="https://www.linkedin.com/in/ayush-yadav-408924230"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/officialayushyadav15"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://t.me/Ayush_21BCS4772"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://leetcode.com/u/ayush1509yadav/"><i class="fa-solid fa-terminal"></i></a>
+                    <a href="https://x.com/ayush10000y?t=0sjwvspMO9qlggV0_lk6sw&s=08"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact_right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <input type="text" name="Phone No." placeholder="Your Phone No." required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Ayush Yadav</p>
+    </div>
+</div>
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+         var sidemen = document.getElementById("sidemenu");
+         function openmenu(){
+            sidemen.style.right = "0";
+         }
+         function closemenu(){
+            sidemen.style.right = "-200px";
+         }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxUkbHOEDrWzncnAEN3c2as7-l91Aq1GAT1g286ypqIwuwXly4efro_PQIFISyH7gjbmw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
