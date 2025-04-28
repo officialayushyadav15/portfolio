@@ -3,7 +3,7 @@
 ![Portfolio Preview](images/work3.png)
 
 ## 🌐 Live Demo
-[Visit My Portfolio](https://your-live-portfolio-link.com)
+[Visit My Portfolio]([https://officialayushyadav15.github.io/portfolio/])
 
 ## 📌 About This Project
 This is my personal portfolio website designed to showcase my work, skills, and achievements. The website includes:
